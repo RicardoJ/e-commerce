@@ -1,6 +1,7 @@
 'use client';
 
 import ProductListingPage from './ProductListingPage';
+import React from 'react';
 
 export default function Home() {
   return (

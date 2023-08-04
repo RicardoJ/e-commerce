@@ -1,5 +1,6 @@
 import { ProductCardDetailsProps } from '@/types';
 import ProductCardRating from './ProductCardRating';
+import React from 'react';
 
 const ProductCardDetails: React.FC<ProductCardDetailsProps> = ({
   title,

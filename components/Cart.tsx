@@ -1,5 +1,6 @@
 import { CartProps } from '@/types';
 import { MdOutlineDeleteForever, MdShoppingCart } from 'react-icons/md';
+import React from 'react';
 
 const Cart: React.FC<CartProps> = ({ cartItems, handleRemoveFromCart }) => {
   const totalItems = cartItems.length;

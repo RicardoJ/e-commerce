@@ -1,5 +1,6 @@
 import { ProductCardImageProps } from '@/types';
 import Image from 'next/image';
+import React from 'react';
 
 const ProductCardImage: React.FC<ProductCardImageProps> = ({ src, alt }) => (
   <Image

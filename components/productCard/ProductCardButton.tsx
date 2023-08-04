@@ -1,4 +1,5 @@
 import { ProductCardButtonProps } from '@/types';
+import React from 'react';
 
 const ProductCardButton: React.FC<ProductCardButtonProps> = ({ onClick }) => (
   <button

@@ -2,6 +2,7 @@ import { ProductCardProps } from '@/types';
 import ProductCardImage from './ProductCardImage';
 import ProductCardDetails from './ProductCardDetails';
 import ProductCardButton from './ProductCardButton';
+import React from 'react';
 
 const ProductCard: React.FC<ProductCardProps> = ({
   product,

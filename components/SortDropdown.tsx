@@ -1,4 +1,5 @@
 import { SortDropdownProps } from '@/types';
+import React from 'react';
 
 const SortDropdown: React.FC<SortDropdownProps> = ({
   sortType,

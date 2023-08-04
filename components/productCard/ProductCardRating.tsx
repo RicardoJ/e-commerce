@@ -1,5 +1,6 @@
 import { ProductCardRatingProps } from '@/types';
 import { MdStar, MdStarHalf } from 'react-icons/md';
+import React from 'react';
 
 const ProductCardRating: React.FC<ProductCardRatingProps> = ({ rate }) => (
   <div className='flex ml-2 items-center gap-1'>

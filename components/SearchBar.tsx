@@ -1,4 +1,5 @@
 import { SearchBarProps } from '@/types';
+import React from 'react';
 
 const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, setSearchTerm }) => {
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {

@@ -1,5 +1,6 @@
 import { ProductCardListProps } from '@/types';
 import ProductCard from './productCard';
+import React from 'react';
 
 const ProductCardList: React.FC<ProductCardListProps> = ({
   products,
